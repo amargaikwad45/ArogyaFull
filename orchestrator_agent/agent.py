@@ -6,7 +6,15 @@ from .sub_agents.med_coach.agent import med_coach
 from .sub_agents.faq_bot.agent import faq_bot
 from .sub_agents.appointment_agent.agent import appointment_agent
 
-
+initial_state = {
+    "user_context": {
+        "user_name": "Ravi Kumar",
+        "personalInfo": {"age": 45, "sex": "Male"},
+        "diagnosedConditions": ["Type 2 Diabetes", "Hypertension"],
+        "currentMedications": [{"name": "Metformin", "dosage": "500mg"}],
+    },
+    "interaction_history": [],
+}
 root_agent = Agent(
     name="arogya_mitra_orchestrator",
     model="gemini-2.0-flash",  
