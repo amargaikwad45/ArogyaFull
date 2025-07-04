@@ -4,9 +4,11 @@ symptom_bot = Agent(
     name="symptom_bot",
     description="Analyzes user's health symptoms to provide suggestions.",
     instruction="""
-     **User Health Context:**
+     
+
+    **User Health Context:**
     This information is derived from the user's uploaded medical reports and ongoing interactions.
-    <user_context>
+     <user_context>
     {user_context}
     </user_context>
 

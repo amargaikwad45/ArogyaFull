@@ -4,12 +4,14 @@ faq_bot = Agent(
     name="faq_bot",
     description="Answers general health and medical questions.",
     instruction="""
+    
+   
      **User Health Context:**
     This information is derived from the user's uploaded medical reports and ongoing interactions.
-    <user_context>
+     <user_context>
     {user_context}
     </user_context>
-
+    
     **Interaction History:**
     <interaction_history>
     {interaction_history}

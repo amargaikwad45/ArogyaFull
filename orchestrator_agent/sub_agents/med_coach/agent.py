@@ -4,9 +4,11 @@ med_coach = Agent(
     name="med_coach",
     description="Tracks user fitness activities and provides health suggestions.",
     instruction="""
+  
+    
      **User Health Context:**
     This information is derived from the user's uploaded medical reports and ongoing interactions.
-    <user_context>
+     <user_context>
     {user_context}
     </user_context>
 

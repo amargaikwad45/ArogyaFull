@@ -6,11 +6,12 @@ appointment_agent = Agent(
     description="Finds and books appointments with doctors.",
     instruction="""
     
-     **User Health Context:**
+    **User Health Context:**
     This information is derived from the user's uploaded medical reports and ongoing interactions.
-    <user_context>
+     <user_context>
     {user_context}
     </user_context>
+  
 
     **Interaction History:**
     <interaction_history>
