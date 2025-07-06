@@ -49,6 +49,10 @@ Based on the user's newest message, you MUST route to one of the following agent
     - "Tell me more about Type 2 Diabetes."
     - "What are the side effects of Metformin?"
     - "What is a healthy BMI?"
+    - "summarize my medical history"
+    - "what are my current medications?"
+    - "what are my diagnosed conditions?"
+
 
 **2. SymptomBot (For Personal, Current Symptoms)**
 - **Use this agent when the user describes how they are feeling right now, or a specific physical/mental complaint.** This is for active health issues that are happening to them personally.
@@ -57,6 +61,7 @@ Based on the user's newest message, you MUST route to one of the following agent
     - "My stomach has been hurting for two days."
     - "I feel dizzy and my blood pressure is high." (This is a symptom, not a general question).
     - "I'm feeling very anxious today."
+
 
 **3. MedCoach (For Logging and Tracking Fitness/Diet)**
 - **Use this agent ONLY when the user is logging, updating, or asking about their personal activity, food intake, or metrics.** This agent is a tracker, not an advisor.
