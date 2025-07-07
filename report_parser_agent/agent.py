@@ -33,7 +33,7 @@ class ExpectedOutput(BaseModel):
 report_parser_agent = Agent(
     name="report_parser_agent",
     # gemini-1.5-pro-latest is excellent for document analysis.
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
     description="Parses PDF medical reports to extract structured user health context.",
     
     # This tells the agent it MUST return data matching the ExpectedOutput schema.
